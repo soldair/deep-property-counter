@@ -1,0 +1,31 @@
+{
+  "name": "deep-property-counter",
+  "version": "1.0.0",
+  "description": "traverse and object. count all of its properties. generate a key to count map. useful for tracking memory leaks",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soldair/deep-property-counter.git"
+  },
+  "keywords": [
+    "counter",
+    "memory",
+    "leak",
+    "test"
+  ],
+  "author": "Ryan Day <soldair@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soldair/deep-property-counter/issues"
+  },
+  "homepage": "https://github.com/soldair/deep-property-counter#readme",
+  "devDependencies": {
+    "tape": "^4.2.0"
+  }
+}
